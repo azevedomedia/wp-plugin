@@ -159,7 +159,7 @@ Example:
 ```
 
 # 3.2. "External id" (required)
->  The post reference in the source system where the content was created.
+>  The post reference in the source system where the content was created. Will be a custom field (in the WP database).
 
 Example:
 
@@ -172,11 +172,11 @@ Example:
 # 3.3. "Type" (required)
 >  Any post types created according to project demand where "post" is the default post type on Wordpress.
 
-Example:
+Example (custom post type):
 
 ```
     {
-    "type" : places,
+    "type" : "places"
     }
 ```
   

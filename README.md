@@ -25,7 +25,7 @@
 
 # 1. About the plugin
 
-> This plugin will works as a "bridge" before the WP API for any remote situation of data manipulation described in the project. After processing the data, the plugin will trigger the Wordpress API functions according to the request:
+> This plugin will works as a "bridge" before the plugins "rest-api" (v2)" and "oauth" (v2) for any remote situation of data manipulation described in the project. After processing the data, the plugin will trigger the Wordpress API functions according to the request:
 
   - Insert
   - Update
